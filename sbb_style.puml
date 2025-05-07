@@ -1,0 +1,92 @@
+!$SBB_RED = "#EB0000"
+!$SBB_RED_125 = "#C60018"
+!$SBB_RED_150 = "#A20013"
+!$SBB_GRANITE = "#686868"
+!$SBB_BLUE = "#2d327d"
+!$SBB_CHARCOAL = "#212121"
+!$SBB_IRON = "#444444"
+!$SBB_PLATINUM = "#CDCDCD"
+!$SBB_ANTHRACITE = "#5A5A5A"
+!$SBB_MILK = "#F6F6F6"
+!$SBB_CLOUD = "#E5E5E5"
+!$SBB_SILVER = "#DCDCDC"
+
+skinparam {
+  DefaultFontColor black
+  DefaultFontSize 12
+  DefaultFontName SBB-Light, SBB Light, SBB, Helvetica, sans-serif
+  roundcorner 12
+
+  BackgroundColor #FFFFFF
+  
+  Arrow {
+    Color black
+    Thickness 0.5
+  }
+  
+  padding 3
+  
+  Class {
+    BorderColor #CDCDCD
+    FontColor black
+    BackgroundColor white
+  }
+  
+  Component {
+    BorderColor $SBB_GRANITE
+    FontColor black
+    BackgroundColor white
+  }
+  
+  Cloud {
+    BorderColor $SBB_GRANITE
+    FontColor black
+    BackgroundColor white
+  }
+  
+  Entity {
+    BorderColor $SBB_RED
+    BackgroundColor $SBB_RED
+  }
+  
+  
+  Database {
+    BorderColor $SBB_GRANITE
+    FontColor black
+    BackgroundColor white
+  }
+
+  
+  Note {
+    BorderColor $SBB_GRANITE
+    FontColor white
+    BackgroundColor $SBB_GRANITE
+    BorderThickness 0
+  }
+
+  Activity {
+    StartColor BLACK
+    EndColor BLACK
+    BorderColor $SBB_GRANITE
+    FontColor black
+    BackgroundColor white
+    Diamond {
+        BackgroundColor $SBB_RED
+        BorderColor $SBB_RED
+        FontCOlor white
+    }
+
+    BarColor $SBB_RED
+  }
+
+
+  Package {
+    Style frame
+    FontSize 50
+    FontStyle bold
+    
+    BorderColor $SBB_GRANITE
+    BorderThickness 1
+    BackgroundColor $SBB_MILK
+  }
+}
